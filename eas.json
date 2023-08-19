@@ -1,0 +1,14 @@
+{
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "KINDE_ISSUER_URL": "https://ikurotime.kinde.com",
+        "KINDE_POST_CALLBACK_URL": "exp://192.168.1.37:8081",
+        "KINDE_POST_LOGOUT_REDIRECT_URL": "exp://192.168.1.37:8081",
+        "KINDE_CLIENT_ID": "0d1443eba56e4732adfa8fa83f25bd95"
+      }
+    }
+  }
+}
