@@ -4,8 +4,8 @@ const callbackUrl = process.env.KINDE_POST_CALLBACK_URL
 const clientId = process.env.KINDE_CLIENT_ID
 const logoutRedirectUrl = process.env.KINDE_POST_LOGOUT_REDIRECT_URL
 export default {
-  name: 'moodly',
-  slug: 'moodly',
+  name: 'kinde_auth_example',
+  slug: 'kinde_auth_example',
   version: '1.0.0',
   orientation: 'portrait',
   icon: './assets/icon.png',
